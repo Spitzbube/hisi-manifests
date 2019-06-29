@@ -99,7 +99,7 @@ $ ln -s ../sstate-cache
 
 Everything should be in place to start a build:
 
- $ bitbake hisdk-qt5-image
+ $ bitbake rpb-console-image
 
 At the end of the build the image should be available in
 <build>/tmp/deploy/images.

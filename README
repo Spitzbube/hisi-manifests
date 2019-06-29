@@ -42,7 +42,7 @@ Do not forget to add ~/bin permanently to your PATH.
 
 To initialize your local working repository:
 
-$ repo init -u https://github.com/hisilicon/hisi-manifests.git -b daisy
+$ repo init -u https://github.com/hisilicon/hisi-manifests.git -b sumo
 
 and to fetch and checkout all project trees:
 
@@ -50,7 +50,7 @@ $ repo sync
 
  3- Initialize OpenEmbedded build folder, and create configuration files
 
-$ source meta-hisilicon/setup-environment <BUILDDIR>
+$ source ./setup-environment <BUILDDIR>
 
 If <BUILDDIR> is not specified, the default name will be 'build-<MACHINE>'.
 If <build> folder does not exist, it will be created and configuration

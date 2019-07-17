@@ -7,7 +7,7 @@
 
   <default revision="sumo" sync-j="4"/>
   
-  <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github"/>
+  <project name="Spitzbube/meta-96boards" path="layers/meta-96boards" remote="github" revision="test/poplar-drivers"/>
   <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>

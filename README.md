@@ -42,7 +42,7 @@ Do not forget to add ~/bin permanently to your PATH.
 
 To initialize your local working repository:
 
-$ repo init -u https://github.com/hisilicon/hisi-manifests.git -b sumo
+$ repo init -u https://github.com/Spitzbube/hisi-manifests.git -b test/poplar-drivers
 
 and to fetch and checkout all project trees:
 
